@@ -11,6 +11,6 @@ else:
 
 # Basic def function
 def parrot():
-    answer = input();
+    answer = input()
     print(answer)
 parrot()
