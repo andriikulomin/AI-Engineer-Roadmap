@@ -1,0 +1,23 @@
+# Secrets: never commit these
+.env
+.env.*
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors and IDEs
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Syncthing
+.stfolder/
+.stignore
+*.sync-conflict-*
